@@ -1,6 +1,6 @@
-##Samsung Dataset Codebook
+#Samsung Dataset Codebook
 
-#Study Design
+##Study Design
 
 Original data (mean and standard deviation as well as column headers) comes from the following publication:
 - Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
@@ -22,7 +22,7 @@ Body linear acceleration was calculated to get Jerk signals (ex: timebodyacceler
 
 The final data is an average of each variable based upon the activity performed by each subject (180 rows corresponding to the 6 activities performed by each of the 30 participants).  The variables are the means and standard deviations only, eliminating frequencymean, as it seemed redundant to take the average of the frequency variables into a new variable.
 
-#Codebook
+##Codebook
  
 activity 
 - activity code number (1 through 6) from the activity labels file
