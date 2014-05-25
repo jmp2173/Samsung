@@ -29,12 +29,12 @@ activity
 
 activityname
 - activity name corresponding to the code number
-	> 1 = "Walking"
-	> 2 = "Walking_Upstairs"
-	> 3 = "Walking_Downstairs"
-	> 4 = "Sitting"
-	> 5 = "Standing"
-	> 6 = "Laying"
+	- 1 = "Walking"
+	- 2 = "Walking_Upstairs"
+	- 3 = "Walking_Downstairs"
+	- 4 = "Sitting"
+	- 5 = "Standing"
+	- 6 = "Laying"
 
 subject
 - subject number from the subject text files, corresponding to volunteer 1 through 30
