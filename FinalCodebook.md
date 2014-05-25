@@ -35,6 +35,7 @@ The final data is an average of each variable based upon the activity performed 
 	- 4 = "Sitting"
 	- 5 = "Standing"
 	- 6 = "Laying"
+
 3) subject
 - subject number from the subject text files, corresponding to volunteer 1 through 30
 
