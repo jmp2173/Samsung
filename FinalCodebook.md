@@ -27,6 +27,7 @@ The final data is an average of each variable based upon the activity performed 
 activity 
 - activity code number (1 through 6) from the activity labels file
 
+
 activityname
 - activity name corresponding to the code number
 	- 1 = "Walking"
