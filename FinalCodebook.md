@@ -24,11 +24,10 @@ The final data is an average of each variable based upon the activity performed 
 
 ##Codebook
  
-activity 
+1) activity 
 - activity code number (1 through 6) from the activity labels file
 
-
-activityname
+2) activityname
 - activity name corresponding to the code number
 	- 1 = "Walking"
 	- 2 = "Walking_Upstairs"
@@ -36,204 +35,203 @@ activityname
 	- 4 = "Sitting"
 	- 5 = "Standing"
 	- 6 = "Laying"
-
-subject
+3) subject
 - subject number from the subject text files, corresponding to volunteer 1 through 30
 
-timebodyaccelerometermeanxdirection
+4) timebodyaccelerometermeanxdirection
 - average of the mean of the body linear acceleration dervied in time from the accelerometer from the axial signal in the X direction
 
-timebodyaccelerometermeanydirection
+5) timebodyaccelerometermeanydirection
 - average of the mean of the body linear acceleration dervied in time from the accelerometer from the axial signal in the y direction
 
-timebodyaccelerometermeanzdirection
+6) timebodyaccelerometermeanzdirection
 - average of the mean of the body linear acceleration dervied in time from the accelerometer from the axial signal in the z direction
 
-timegravityaccelerometermeanxdirection
+7) timegravityaccelerometermeanxdirection
 - average of the mean of the gravity acceleration dervied in time from the accelerometer from the axial signal in the X direction
 
-timegravityaccelerometermeanydirection
+8) timegravityaccelerometermeanydirection
 - average of the mean of the gravity acceleration dervied in time from the accelerometer from the axial signal in the y direction
 
-timegravityaccelerometermeanzdirection
+9) timegravityaccelerometermeanzdirection
 - average of the mean of the gravity acceleration dervied in time from the accelerometer from the axial signal in the z direction
 
-timebodyaccelerometerjerkmeanxdirection
+10) timebodyaccelerometerjerkmeanxdirection
 - average of the mean of the jerk signal of body linear acceleration dervied in time from the accelerometer from the axial signal in the X direction
 
-timebodyaccelerometerjerkmeanydirection
+11) timebodyaccelerometerjerkmeanydirection
 - average of the mean of the jerk signal of body linear acceleration dervied in time from the accelerometer from the axial signal in the y direction
 
-timebodyaccelerometerjerkmeanzdirection
+12) timebodyaccelerometerjerkmeanzdirection
 - average of the mean of the jerk signal of body linear acceleration dervied in time from the accelerometer from the axial signal in the z direction
 
-timebodygyroscopemeanxdirection
+13) timebodygyroscopemeanxdirection
 - average of the mean of the body linear acceleration dervied in time from the gyroscope from the axial signal in the X direction
 
-timebodygyroscopemeanydirection
+14) timebodygyroscopemeanydirection
 - average of the mean of the body linear acceleration dervied in time from the gyroscope from the axial signal in the y direction
 
-timebodygyroscopemeanzdirection
+15) timebodygyroscopemeanzdirection
 - average of the mean of the body linear acceleration dervied in time from the gyroscope from the axial signal in the z direction
 
-timebodygyroscopejerkmeanxdirection
+16) timebodygyroscopejerkmeanxdirection
 - average of the mean of the jerk signal of body linear acceleration dervied in time from the gyroscope from the axial signal in the X direction
 
-timebodygyroscopejerkmeanydirection
+17) timebodygyroscopejerkmeanydirection
 - average of the mean of the jerk signal of body linear acceleration dervied in time from the gyroscope from the axial signal in the y direction
 
-timebodygyroscopejerkmeanzdirection
+18) timebodygyroscopejerkmeanzdirection
 - average of the mean of the jerk signal of body linear acceleration dervied in time from the gyroscope from the axial signal in the z direction
 
-timebodyaccelerometermagnitudemean
+19) timebodyaccelerometermagnitudemean
 - average of the mean of the magnitude of the body linear acceleration signal derived in time from the accelerometer using the Euclidean norm
 
-timegravityaccelerometermagnitudemean
+20) timegravityaccelerometermagnitudemean
 - average of the mean of the magnitude of the gravity acceleration signal derived in time from the accelerometer using the Euclidean norm
 
-timebodyaccelerometerjerkmagnitudemean
+21) timebodyaccelerometerjerkmagnitudemean
 - average of the mean of the jerk signal of the magnitude of the body linear acceleration signal derived in time from the accelerometer using the Euclidean norm
 
-timebodygyroscopemagnitudemean
+22) timebodygyroscopemagnitudemean
 - average of the mean of the magnitude of the body linear acceleration signal derived in time from the gyroscope using the Euclidean norm
 
-timebodygyroscopejerkmagnitudemean
+23) timebodygyroscopejerkmagnitudemean
 - average of the mean of the jerk signal of the magnitude of the body linear acceleration signal derived in time from the gyroscope using the Euclidean norm
 
-frequencybodyaccelerometermeanxdirection
+24) frequencybodyaccelerometermeanxdirection
 - average of the mean of the body linear acceleration derived using Fast Fourier Transform from the accelerometer from the axial signal in the x direction
 
-frequencybodyaccelerometermeanydirection
+25) frequencybodyaccelerometermeanydirection
 - average of the mean of the body linear acceleration derived using Fast Fourier Transform from the accelerometer from the axial signal in the y direction
 
-frequencybodyaccelerometermeanzdirection
+26) frequencybodyaccelerometermeanzdirection
 - average of the mean of the body linear acceleration derived using Fast Fourier Transform from the accelerometer from the axial signal in the z direction
 
-frequencyaccelerometerjerkmeanxdirection
+27) frequencyaccelerometerjerkmeanxdirection
 - average of the mean of the jerk signal of body linear acceleration dervied using Fast Fourier Transform from the accelerometer from the axial signal in the X direction
 
-frequencyaccelerometerjerkmeanydirection
+28) frequencyaccelerometerjerkmeanydirection
 - average of the mean of the jerk signal of body linear acceleration dervied using Fast Fourier Transform from the accelerometer from the axial signal in the y direction
 
-frequencyaccelerometerjerkmeanzdirection
+29) frequencyaccelerometerjerkmeanzdirection
 - average of the mean of the jerk signal of body linear acceleration dervied using Fast Fourier Transform from the accelerometer from the axial signal in the z direction
 
-frequencybodygyroscopemeanxdirection
+30) frequencybodygyroscopemeanxdirection
 - average of the mean of the body linear acceleration dervied using Fast Fourier Transform from the gyroscope from the axial signal in the X direction
 
-frequencybodygyroscopemeanydirection
+31) frequencybodygyroscopemeanydirection
 - average of the mean of the body linear acceleration dervied using Fast Fourier Transform from the gyroscope from the axial signal in the y direction
 
-frequencybodygyroscopemeanzdirection
+32) frequencybodygyroscopemeanzdirection
 - average of the mean of the body linear acceleration dervied using Fast Fourier Transform from the gyroscope from the axial signal in the z direction
 
-frequencybodyaccelerometermagnitudemean
+33) frequencybodyaccelerometermagnitudemean
 - average of the mean of the magnitude of the body linear acceleration signal derived using Fast Fourier Transform from the accelerometer using the Euclidean norm
 
-frequencybodybodyaccelerometerjerkmagnitudemean
+34) frequencybodybodyaccelerometerjerkmagnitudemean
 - average of the mean of the jerk signal of the magnitude of the body linear acceleration signal derived using Fast Fourier Transform from the accelerometer using the Euclidean norm
 
-frequencybodybodygyroscopemagnitudemean
+35) frequencybodybodygyroscopemagnitudemean
 - average of the mean of the magnitude of the body linear acceleration signal derived using Fast Fourier Transform from the gyroscope using the Euclidean norm
 
-frequencybodybodygyroscopejerkmagnitudemean
+36) frequencybodybodygyroscopejerkmagnitudemean
 - average of the mean of the jerk signal of the magnitude of the body linear acceleration signal derived using Fast Fourier Transform from the gyroscope using the Euclidean norm
 
-timebodyaccelerometerstandarddeviationxdirection
+37) timebodyaccelerometerstandarddeviationxdirection
 - average of the standard deviation of the body linear acceleration dervied in time from the accelerometer from the axial signal in the X direction
 
-timebodyaccelerometerstandarddeviationydirection
+38) timebodyaccelerometerstandarddeviationydirection
 - average of the standard deviation of the body linear acceleration dervied in time from the accelerometer from the axial signal in the y direction
 
-timebodyaccelerometerstandarddeviationzdirection
+39) timebodyaccelerometerstandarddeviationzdirection
 - average of the standard deviation of the body linear acceleration dervied in time from the accelerometer from the axial signal in the z direction
 
-timegravityaccelerometerstandarddeviationxdirection
+40) timegravityaccelerometerstandarddeviationxdirection
 - average of the standard deviation of the gravity acceleration dervied in time from the accelerometer from the axial signal in the X direction
 
-timegravityaccelerometerstandarddeviationydirection
+41) timegravityaccelerometerstandarddeviationydirection
 - average of the standard deviation of the gravity acceleration dervied in time from the accelerometer from the axial signal in the y direction
 
-timegravityaccelerometerstandarddeviationzdirection
+42) timegravityaccelerometerstandarddeviationzdirection
 - average of the standard deviation of the gravity acceleration dervied in time from the accelerometer from the axial signal in the z direction
 
-timebodyaccelerometerjerkstandarddeviationxdirection
+43) timebodyaccelerometerjerkstandarddeviationxdirection
 - average of the standard deviation of the jerk signal of body linear acceleration dervied in time from the accelerometer from the axial signal in the X direction
 
-timebodyaccelerometerjerkstandarddeviationydirection
+44) timebodyaccelerometerjerkstandarddeviationydirection
 - average of the standard deviation of the jerk signal of body linear acceleration dervied in time from the accelerometer from the axial signal in the y direction
 
-timebodyaccelerometerjerkstandarddeviationzdirection
+45) timebodyaccelerometerjerkstandarddeviationzdirection
 - average of the standard deviation of the jerk signal of body linear acceleration dervied in time from the accelerometer from the axial signal in the z direction
 
-timebodygyroscopestandarddeviationxdirection
+46) timebodygyroscopestandarddeviationxdirection
 - average of the standard deviation of the body linear acceleration dervied in time from the gyroscope from the axial signal in the X direction
 
-timebodygyroscopestandarddeviationydirection
+47) timebodygyroscopestandarddeviationydirection
 - average of the standard deviation of the body linear acceleration dervied in time from the gyroscope from the axial signal in the y direction
 
-timebodygyroscopestandarddeviationzdirection
+48) timebodygyroscopestandarddeviationzdirection
 - average of the standard deviation of the body linear acceleration dervied in time from the gyroscope from the axial signal in the z direction
 
-timebodygyroscopejerkstandarddeviationxdirection
+49) timebodygyroscopejerkstandarddeviationxdirection
 - average of the standard deviation of the jerk signal of body linear acceleration dervied in time from the gyroscope from the axial signal in the X direction
 
-timebodygyroscopejerkstandarddeviationydirection
+50) timebodygyroscopejerkstandarddeviationydirection
 - average of the standard deviation of the jerk signal of body linear acceleration dervied in time from the gyroscope from the axial signal in the y direction
 
-timebodygyroscopejerkstandarddeviationzdirection
+51) timebodygyroscopejerkstandarddeviationzdirection
 - average of the standard deviation of the jerk signal of body linear acceleration dervied in time from the gyroscope from the axial signal in the z direction
 
-timebodyaccelerometermagnitudestandarddeviation
+52) timebodyaccelerometermagnitudestandarddeviation
 - average of the standard deviation of the magnitude of the body linear acceleration signal derived in time from the accelerometer using the Euclidean norm
 
-timegravityaccelerometermagnitudestandarddeviation
+53) timegravityaccelerometermagnitudestandarddeviation
 - average of the standard deviation of the magnitude of the gravity acceleration signal derived in time from the accelerometer using the Euclidean norm
 
-timebodyaccelerometerjerkmagnitudestandarddeviation
+54) timebodyaccelerometerjerkmagnitudestandarddeviation
 - average of the standard deviation of the jerk signal of the magnitude of the body linear acceleration signal derived in time from the accelerometer using the Euclidean norm
 
-timebodygyroscopemagnitudestandarddeviation
+55) timebodygyroscopemagnitudestandarddeviation
 - average of the standard deviation of the magnitude of the body linear acceleration signal derived in time from the gyroscope using the Euclidean norm
 
-timebodygyroscopejerkmagnitudestandarddeviation
+56) timebodygyroscopejerkmagnitudestandarddeviation
 - average of the standard deviation of the jerk signal of the magnitude of the body linear acceleration signal derived in time from the gyroscope using the Euclidean norm
 
-frequencybodyaccelerometerstandarddeviationxdirection
+57) frequencybodyaccelerometerstandarddeviationxdirection
 - average of the standard deviation of the body linear acceleration derived using Fast Fourier Transform from the accelerometer from the axial signal in the x direction
 
-frequencybodyaccelerometerstandarddeviationydirection
+58) frequencybodyaccelerometerstandarddeviationydirection
 - average of the standard deviation of the body linear acceleration derived using Fast Fourier Transform from the accelerometer from the axial signal in the y direction
 
-frequencybodyaccelerometerstandarddeviationzdirection
+59) frequencybodyaccelerometerstandarddeviationzdirection
 - average of the standard deviation of the body linear acceleration derived using Fast Fourier Transform from the accelerometer from the axial signal in the z direction
 
-frequencyaccelerometerjerkstandarddeviationxdirection
+60) frequencyaccelerometerjerkstandarddeviationxdirection
 - average of the standard deviation of the jerk signal of body linear acceleration dervied using Fast Fourier Transform from the accelerometer from the axial signal in the X direction
 
-frequencyaccelerometerjerkstandarddeviationydirection
+61) frequencyaccelerometerjerkstandarddeviationydirection
 - average of the standard deviation of the jerk signal of body linear acceleration dervied using Fast Fourier Transform from the accelerometer from the axial signal in the y direction
 
-frequencyaccelerometerjerkstandarddeviationzdirection
+62) frequencyaccelerometerjerkstandarddeviationzdirection
 - average of the standard deviation of the jerk signal of body linear acceleration dervied using Fast Fourier Transform from the accelerometer from the axial signal in the z direction
 
-frequencybodygyroscopestandarddeviationxdirection
+63) frequencybodygyroscopestandarddeviationxdirection
 - average of the standard deviation of the body linear acceleration dervied using Fast Fourier Transform from the gyroscope from the axial signal in the X direction
 
-frequencybodygyroscopestandarddeviationydirection
+64) frequencybodygyroscopestandarddeviationydirection
 - average of the standard deviation of the body linear acceleration dervied using Fast Fourier Transform from the gyroscope from the axial signal in the y direction
 
-frequencybodygyroscopestandarddeviationzdirection
+65) frequencybodygyroscopestandarddeviationzdirection
 - average of the standard deviation of the body linear acceleration dervied using Fast Fourier Transform from the gyroscope from the axial signal in the z direction
 
-frequencybodyaccelerometermagnitudestandarddeviation
+66) frequencybodyaccelerometermagnitudestandarddeviation
 - average of the standard deviation of the magnitude of the body linear acceleration signal derived using Fast Fourier Transform from the accelerometer using the Euclidean norm
 
-frequencybodybodyaccelerometerjerkmagnitudestandarddeviation
+67) frequencybodybodyaccelerometerjerkmagnitudestandarddeviation
 - average of the standard deviation of the jerk signal of the magnitude of the body linear acceleration signal derived using Fast Fourier Transform from the accelerometer using the Euclidean norm
 
-frequencybodybodygyroscopemagnitudestandarddeviation
+68) frequencybodybodygyroscopemagnitudestandarddeviation
 - average of the standard deviation of the magnitude of the body linear acceleration signal derived using Fast Fourier Transform from the gyroscope using the Euclidean norm
 
-frequencybodybodygyroscopejerkmagnitudestandarddeviation
+69) frequencybodybodygyroscopejerkmagnitudestandarddeviation
 - average of the standard deviation of the jerk signal of the magnitude of the body linear acceleration signal derived using Fast Fourier Transform from the gyroscope using the Euclidean norm
