@@ -53,4 +53,5 @@ fmelt <- melt(final7, id.vars = c("activity", "subject"))
 final9 <- dcast(fmelt, subject + activity ~ variable, fun.aggregate=mean)
 ##add in activity labels corresponding with the activity number
 final10 <- merge(names,final9,by="activity")
+##save as text file
 write.csv(final10, file='finaldata.txt')
